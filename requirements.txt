@@ -1,0 +1,15 @@
+# Bank account fraud detection
+# Python 3.10 or newer (developed on 3.12)
+#
+# Install:  pip install -r requirements.txt
+
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.4
+joblib>=1.3
+
+# Only needed for the offline web app (app.py)
+streamlit>=1.30
+
+# Only needed to open the notebook
+# jupyterlab>=4.0

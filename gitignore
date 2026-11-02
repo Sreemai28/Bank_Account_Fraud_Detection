@@ -1,0 +1,39 @@
+# --- Data (each CSV is over 200 MB; GitHub rejects files over 100 MB) ---
+*.csv
+*.csv.gz
+*.zip
+*.parquet
+*.feather
+
+# --- Trained models (recreate with: python bank_fraud_clean.py) ---
+*.joblib
+*.pkl
+*.pickle
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Logs and temp files ---
+*.log
+*.tmp
+
+# --- Editors and OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
